@@ -14,28 +14,30 @@
 
 <style lang="scss" scoped>
   .card{
-    min-width: 300px;
+    width: 90vw;
+    max-width: 500px;
     height: 200px;
-    font-size: 160px;
-    padding: 25px;
+    font-size: 10em;
+    margin: 15px auto;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 8px solid #fff017c4;
-    margin: 15px;
   }
     .counter-button {
-    width: 250px;
-    height: 80px;
-    font-family: Roboto, sans-serif;
-    font-weight: bold;
-    font-size: 35px;
-    color: white;
-    border: 2px solid white;
-    border-radius: 15px;
-    margin: 5px;
-    cursor: pointer;
+      width: 40%;
+      max-width: 250px;
+      min-width: 120px;
+      height: 80px;
+      font-family: Roboto, sans-serif;
+      font-weight: bold;
+      font-size: 35px;
+      color: white;
+      border: 2px solid white;
+      border-radius: 15px;
+      margin: 5px 15px;
+      cursor: pointer;
     }
 
     .counter-button:hover {

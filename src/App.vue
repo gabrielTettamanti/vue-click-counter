@@ -16,7 +16,7 @@ import VClickCounter from './components/VClickCounter.vue'
 
 <style scoped>
 .logo {
-  height: 5em;
+  height: 7em;
   padding: 1em;
   will-change: filter;
 }
