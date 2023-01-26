@@ -37,11 +37,18 @@
       border: 2px solid white;
       border-radius: 15px;
       margin: 5px 15px;
+      transition: 0.5s;
       cursor: pointer;
     }
 
     .counter-button:hover {
       background-color: #00471b;
+    }
+    .counter-button:active {
+      background-color: #018634;
+      box-shadow: 0px 10px 88px 15px rgba(1,134,52,0.75);
+      -webkit-box-shadow: 0px 10px 88px 15px rgba(1,134,52,0.75);
+      -moz-box-shadow: 0px 10px 88px 15px rgba(1,134,52,0.75);
     }
 
     .click-button {
